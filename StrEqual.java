@@ -10,14 +10,16 @@ class StrEqual
 
 		int i,c=0;
 
+//first compare two strings length are equal or not...
+
 		if(s1.length()==s2.length())
 		{
-			for(i=0;i<s1.length();i++)
+			for(i=0;i<s1.length();i++)   // to check each character...
 			{
-				char ch1=s1.charAt(i);
+				char ch1=s1.charAt(i);   // charAt() method for check characters..
 				char ch2=s2.charAt(i);
               {
-                if( ch1 == ch2)
+                if( ch1 == ch2)          //compare each character of strings
                   c++;
 			  }
 		    }
